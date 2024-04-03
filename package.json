@@ -1,0 +1,21 @@
+{
+  "name": "flandolfservant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.5",
+    "colors": "^1.4.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
